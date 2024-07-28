@@ -1,0 +1,103 @@
+/* global styles  */
+
+:root {
+  --theme-primary-font: "Inter", sans-serif;
+  --theme-primary-color: #e6533c;
+  --theme-neutral-color: #ffffff;
+  --theme-text-color: rgba(255, 255, 255, 0.5);
+  --theme-background-color: #000000;
+  font-size: 16px;
+}
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--theme-background-color);
+}
+
+/* resets  */
+
+body {
+  font-family: var(--theme-primary-font);
+  line-height: 1.2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--theme-neutral-color);
+  line-height: 1.2;
+}
+
+p {
+  color: var(--theme-text-color);
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--theme-primary-color);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* reusable classes  */
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.col-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+/*  */
