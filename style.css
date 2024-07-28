@@ -4,8 +4,10 @@
   --theme-primary-font: "Inter", sans-serif;
   --theme-primary-color: #e6533c;
   --theme-neutral-color: #ffffff;
+  --theme-neutral-10: rgba(255, 255, 255, 0.1);
   --theme-text-color: rgba(255, 255, 255, 0.5);
   --theme-background-color: #000000;
+  --container-width: 1060px;
   font-size: 16px;
 }
 
@@ -36,13 +38,13 @@ h6 {
 
 p {
   color: var(--theme-text-color);
-  line-height: 1.2;
+  line-height: 1.7;
 }
 
 a {
   text-decoration: none;
   display: inline-block;
-  color: var(--theme-primary-color);
+  color: var(--theme-neutral-color);
 }
 
 img {
@@ -51,6 +53,12 @@ img {
 }
 
 /* reusable classes  */
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: var(--container-width);
+}
 
 .flex {
   display: flex;
@@ -66,6 +74,10 @@ img {
 
 .items-end {
   align-items: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .justify-start {
@@ -100,4 +112,101 @@ img {
   flex-wrap: wrap-reverse;
 }
 
-/*  */
+.text-start {
+  text-align: start;
+}
+.text-center {
+  text-align: center;
+}
+.text-end {
+  text-align: end;
+}
+
+/* globals  */
+
+.btn {
+  padding: 16px 40px;
+  border-radius: 42px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+
+.btn-primary {
+  background-color: var(--theme-primary-color);
+}
+
+.btn-outline {
+  border-color: var(--theme-neutral-color);
+}
+
+/* navbar */
+
+.navbar {
+  padding: 69px 32px;
+}
+
+.logo {
+  font-size: 36px;
+  font-style: italic;
+  color: var(--theme-primary-color);
+}
+
+.nav-items {
+  padding: 4px;
+  list-style: none;
+  gap: 47px;
+  border: 1px solid var(--theme-neutral-10);
+  border-radius: 39px;
+  overflow: hidden;
+}
+
+.nav-link {
+  padding: 8px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 46px;
+  background-color: transparent;
+  transition: background-color 300ms ease-in-out;
+}
+
+.nav-link.active {
+  background-color: var(--theme-primary-color);
+}
+
+.nav-link:hover {
+  background-color: var(--theme-primary-color);
+}
+
+/* banner  */
+
+.banner-title {
+  font-size: 78px;
+  font-weight: 900;
+}
+
+.highlight {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.banner-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 54px;
+}
+
+.banner-description {
+  margin: 28px 0;
+}
+
+.banner-btn-group {
+  gap: 14px;
+}
+
+.banner-img {
+  max-width: 349px;
+  height: 580px;
+  object-fit: contain;
+}
