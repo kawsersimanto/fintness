@@ -606,3 +606,8 @@ footer {
 .training-item:hover img {
   transform: scale(1.1);
 }
+
+.bmi-title-wrap {
+  max-width: 671px;
+  margin: 88px auto;
+}

@@ -122,6 +122,11 @@
     width: 347px;
     height: 198px;
   }
+
+  .bmi-title-wrap {
+    max-width: 595px;
+    margin: 72px 0 46px;
+  }
 }
 
 @media (min-width: 595px) and (max-width: 743px) {
@@ -227,6 +232,10 @@
   .light-blue {
     width: 347px;
     height: 198px;
+  }
+
+  .bmi-title-wrap {
+    margin: 30px 0;
   }
 }
 
@@ -410,5 +419,9 @@
 
   .light-blue {
     display: none;
+  }
+
+  .bmi-title-wrap {
+    margin: 30px 0 32px;
   }
 }
