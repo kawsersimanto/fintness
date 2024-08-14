@@ -97,6 +97,31 @@
     width: 256px;
     height: 319px;
   }
+
+  .green {
+    width: 214px;
+  }
+  .red {
+    width: 287px;
+  }
+  .light-black {
+    width: 211px;
+  }
+
+  .black {
+    width: 276px;
+    height: 202px;
+  }
+
+  .light-green {
+    width: 210;
+    height: 202px;
+  }
+
+  .light-blue {
+    width: 347px;
+    height: 198px;
+  }
 }
 
 @media (min-width: 595px) and (max-width: 743px) {
@@ -177,6 +202,31 @@
 
   .run-mobile {
     display: block;
+  }
+
+  .green {
+    width: 214px;
+  }
+  .red {
+    width: 259px;
+  }
+  .light-black {
+    width: 211px;
+  }
+
+  .black {
+    width: 276px;
+    height: 202px;
+  }
+
+  .light-green {
+    width: 210;
+    height: 202px;
+  }
+
+  .light-blue {
+    width: 347px;
+    height: 198px;
   }
 }
 
@@ -335,5 +385,30 @@
 
   .run-extra-mile {
     max-width: 200px;
+  }
+
+  .green {
+    width: 55%;
+    height: 128px;
+  }
+  .red {
+    width: 45%;
+    height: 128px;
+  }
+  .light-black {
+    display: none;
+  }
+  .black {
+    width: 47%;
+    height: 128px;
+  }
+
+  .light-green {
+    width: 53%;
+    height: 128px;
+  }
+
+  .light-blue {
+    display: none;
   }
 }

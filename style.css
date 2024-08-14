@@ -507,3 +507,102 @@ footer {
 .run-mobile {
   display: none;
 }
+
+.training-paragraph {
+  max-width: 685px;
+}
+
+.training-gallery {
+  margin-top: 58px;
+}
+
+.training-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.training-item p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  position: absolute;
+  z-index: 2;
+}
+
+.green p {
+  left: 24px;
+  bottom: 28px;
+}
+
+.red p {
+  color: white;
+  left: 24px;
+  top: 28px;
+}
+
+.light-black p {
+  max-width: 176px;
+  color: white;
+  left: 24px;
+  bottom: 28px;
+}
+
+.green {
+  width: 250px;
+  height: 202px;
+}
+.red {
+  width: 520px;
+  height: 202px;
+}
+.light-black {
+  width: 290px;
+  height: 202px;
+}
+
+.black {
+  width: 435px;
+  height: 202px;
+}
+
+.black p {
+  max-width: 176px;
+  color: white;
+  right: 24px;
+  top: 28px;
+}
+
+.light-green {
+  width: 288px;
+  height: 202px;
+}
+
+.light-green p {
+  max-width: 176px;
+  color: white;
+  left: 24px;
+  bottom: 28px;
+}
+
+.light-blue {
+  width: 347px;
+  height: 202px;
+}
+
+.light-blue p {
+  max-width: 176px;
+  color: white;
+  left: 24px;
+  bottom: 28px;
+}
+
+.training-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 500ms ease-in-out;
+}
+
+.training-item:hover img {
+  transform: scale(1.1);
+}
