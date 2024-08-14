@@ -130,6 +130,14 @@
   .habits {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .team-members {
+    margin-top: 54px;
+  }
+
+  .team-members {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 594px) {
@@ -247,5 +255,13 @@
 
   .habit-item {
     gap: 26px;
+  }
+
+  .team-members {
+    grid-template-columns: 1fr;
+  }
+
+  .team-members {
+    margin-top: 37px;
   }
 }

@@ -414,3 +414,46 @@ footer {
 .habit-content {
   font-size: 14px;
 }
+
+.teams {
+  padding: 88px 0;
+}
+
+.team-members {
+  margin-top: 58px;
+  padding: 20px;
+  border-radius: 18px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.member {
+  height: 272px;
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.member-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 700ms ease-in-out;
+}
+
+.member:hover .member-image {
+  transform: scale(1.1);
+}
+
+.member-details {
+  position: absolute;
+  left: 19px;
+  bottom: 16px;
+}
+
+.member-title {
+  font-size: 20px;
+  font-weight: 900;
+}
