@@ -29,6 +29,10 @@
   .footer-wrap {
     flex-direction: column;
   }
+
+  .habits {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (min-width: 744px) and (max-width: 768px) {
@@ -41,6 +45,7 @@
   }
 
   .banner {
+    padding-bottom: 0;
     padding-left: 52px;
     padding-right: 52px;
   }
@@ -66,6 +71,14 @@
   .footer-nav-wrap {
     gap: 152px;
   }
+
+  .habit {
+    padding: 111px 0 84px;
+  }
+
+  .habits {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (min-width: 595px) and (max-width: 743px) {
@@ -82,7 +95,7 @@
   }
 
   .banner {
-    padding: 146px 0;
+    padding: 146px 0 0;
   }
 
   .banner-wrap {
@@ -109,6 +122,14 @@
   .footer-text {
     font-size: 14px;
   }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .habits {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (min-width: 320px) and (max-width: 594px) {
@@ -129,7 +150,7 @@
   }
 
   .banner {
-    padding: 146px 0;
+    padding: 146px 0 0;
   }
 
   .banner-wrap {
@@ -210,5 +231,21 @@
 
   .footer-text {
     font-size: 14px;
+  }
+
+  .habit {
+    padding: 66px 0 66px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .habits {
+    grid-template-columns: 1fr;
+  }
+
+  .habit-item {
+    gap: 26px;
   }
 }

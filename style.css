@@ -357,3 +357,60 @@ footer {
 .footer-link-item:hover {
   color: white;
 }
+
+/* habit  */
+
+.habit {
+  padding: 100px 0 100px;
+}
+
+.habit-text-wrap {
+}
+
+.section-title {
+  margin-bottom: 14px;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.habit-title {
+  text-align: center;
+}
+
+.habit-paragraph {
+  max-width: 685px;
+  text-align: center;
+}
+
+.habits {
+  margin-top: 58px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.habit-item {
+  gap: 30px;
+}
+
+.habit-image-wrap {
+  overflow: hidden;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.1);
+}
+
+.habit-image {
+  transition: transform 500ms ease-in-out;
+}
+
+.habit-item:hover .habit-image {
+  transform: scale(1.1);
+}
+
+.habit-title {
+  margin-bottom: 3px;
+}
+
+.habit-content {
+  font-size: 14px;
+}
