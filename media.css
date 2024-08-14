@@ -1,0 +1,214 @@
+@media (min-width: 1025px) and (max-width: 1240px) {
+  .banner-wrap {
+    flex-direction: column;
+  }
+  .workout {
+    top: 37px;
+    right: -55px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .workout {
+    top: 37px;
+    right: -55px;
+  }
+  .banner-wrap {
+    flex-direction: column;
+  }
+  .footer-wrap {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .banner-wrap {
+    flex-direction: column;
+  }
+
+  .footer-wrap {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 744px) and (max-width: 768px) {
+  .navbar {
+    padding: 52px 0;
+  }
+
+  .nav-items {
+    gap: 20px;
+  }
+
+  .banner {
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+
+  .banner-wrap {
+    flex-direction: column;
+    gap: 125px;
+  }
+
+  .banner-title {
+    font-size: 78px;
+  }
+
+  footer {
+    padding: 66px 0 40px;
+  }
+
+  .footer-wrap {
+    flex-direction: column;
+    gap: 102px;
+  }
+
+  .footer-nav-wrap {
+    gap: 152px;
+  }
+}
+
+@media (min-width: 595px) and (max-width: 743px) {
+  nav {
+    display: none;
+  }
+
+  .navbar {
+    padding: 52px 0;
+  }
+
+  .ham-burger-icon {
+    display: block;
+  }
+
+  .banner {
+    padding: 146px 0;
+  }
+
+  .banner-wrap {
+    flex-direction: column;
+  }
+
+  .banner-title {
+    font-size: 36px;
+  }
+
+  .footer-wrap {
+    flex-direction: column;
+  }
+
+  .footer-nav-wrap {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  footer {
+    padding: 66px 0 40px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 594px) {
+  .navbar {
+    padding: 52px 0;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .ham-burger-icon {
+    display: block;
+  }
+
+  .banner-wrap {
+    flex-direction: column;
+  }
+
+  .banner {
+    padding: 146px 0;
+  }
+
+  .banner-wrap {
+    flex-direction: column;
+    gap: 73px;
+  }
+
+  .banner-title {
+    max-width: 230px;
+    font-size: 36px;
+  }
+
+  .banner-btn-group {
+    gap: 14px;
+  }
+
+  .btn {
+    padding: 16px 40px;
+  }
+
+  .btn-outline {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .club-text {
+    display: none;
+  }
+
+  .workout {
+    padding: 12px 18px;
+    top: 23px;
+    right: -10px;
+  }
+
+  .workout h3 {
+    font-size: 30.241px;
+  }
+
+  .workout p {
+    font-size: 9.828px;
+  }
+
+  .video-tutorial {
+    padding: 15px 17px;
+  }
+
+  .video-tutorial img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .video-tutorial {
+    font-size: 18px;
+    gap: 12px;
+    left: 0;
+    top: auto;
+    bottom: auto;
+  }
+
+  .video-tutorial p {
+    font-size: 12px;
+  }
+
+  footer {
+    padding: 44px 0 57px;
+  }
+
+  .footer-wrap {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-nav-wrap {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+  }
+}
