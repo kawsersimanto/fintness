@@ -100,24 +100,8 @@ ul {
   justify-content: flex-end;
 }
 
-.row-reverse {
-  flex-direction: row-reverse;
-}
-
 .flex-col {
   flex-direction: column;
-}
-
-.col-reverse {
-  flex-direction: column-reverse;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
-.flex-wrap-reverse {
-  flex-wrap: wrap-reverse;
 }
 
 .text-start {
@@ -329,6 +313,8 @@ footer {
   gap: 108px;
 }
 
+/* get started  */
+
 .get-started {
   max-width: 182px;
 }
@@ -366,9 +352,6 @@ footer {
 
 .habit {
   padding: 100px 0 100px;
-}
-
-.habit-text-wrap {
 }
 
 .section-title {
@@ -419,6 +402,8 @@ footer {
   font-size: 14px;
 }
 
+/* teams  */
+
 .teams {
   padding: 88px 0;
 }
@@ -461,6 +446,8 @@ footer {
   font-size: 20px;
   font-weight: 900;
 }
+
+/* run  */
 
 .run {
   padding-bottom: 100px;
@@ -507,6 +494,8 @@ footer {
 .run-mobile {
   display: none;
 }
+
+/* training  */
 
 .training-paragraph {
   max-width: 685px;
@@ -606,6 +595,8 @@ footer {
 .training-item:hover img {
   transform: scale(1.1);
 }
+
+/* bmi  */
 
 .bmi-title-wrap {
   max-width: 671px;
